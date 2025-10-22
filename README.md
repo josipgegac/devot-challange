@@ -3,7 +3,7 @@ My solution for the Devot Home Budget App challange.
 # Run instructions
 ## 1. Create python environment
 ```bash
-conda create --name <env_name> --file requierments.txt
+conda env create -f environment.yml
 ```
 or
 ```bash
@@ -24,7 +24,7 @@ ACCESS_EXPIRES_MINUTES=30
 ### 3.1 Running the application
 Use the following command:
 ```bash
-uvicorn app.main:app --reload
+python -m uvicorn app.main:app --reload
 ```
 ### 3.2 Docs
 You can check API functionalities easily from the docs page:
