@@ -34,5 +34,5 @@ http://127.0.0.1:8000/docs
 ### 3.3 Build database
 Use the rebuild_database functionality to create a database with a few users, categories, and expenses. N.B.: Each user only sees their own categories and expenses.
 ### 3.4 Authorise
-In order to use API functionalities you need to authorise. To do that click on "Authorise" button at the top of the docs page where you will need to enter user email in the "username" field and user password in the "password" field.
+In order to use API functionalities you need to authorise. To do that click on "Authorise" button at the top of the docs page where you will need to enter user email in the "username" field and user password in the "password" field. You can find user emails and passwords in seed_data.py file (search for user objects) or you can register new users.
 ### 3.5 Use the API
